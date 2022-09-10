@@ -120,7 +120,7 @@ class Client():
         return self.session.post(url, data='')
     
     def __post_url2id(self, url):
-        r = self.session.get(url)
+        r = requests.get(url)
         placement_str = 'instagram://media?id='
         p = r.text.find(placement_str)
         raw_id = r.text[p:p+100]
