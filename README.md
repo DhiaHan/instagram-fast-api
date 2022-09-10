@@ -28,13 +28,13 @@ print(results['hashtags'])
 ## There's other functions like:
 
 ```
-cl.change_password(NEW_PASSWORD)
+client.change_password(NEW_PASSWORD)
 
-cl.user_id(USERNAME) #Returns user id
+client.user_id(USERNAME) #Returns user id
 
-cl.logout() #logout of account
+client.logout() #logout of account
 
-cl.message(USERNAME, MESSAGE_TEXT) #Soon
+client.message(USERNAME, MESSAGE_TEXT) #Soon
 
-cl.report(USERNAME) #Soon
+client.report(USERNAME) #Soon
 ```
