@@ -32,6 +32,8 @@ client.change_password(NEW_PASSWORD)
 
 client.user_id(USERNAME) #Returns user id
 
+client.set_gender(gender='male') #change account's gender
+
 client.logout() #logout of account
 
 client.message(USERNAME, MESSAGE_TEXT) #Soon
