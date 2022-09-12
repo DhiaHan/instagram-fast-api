@@ -13,13 +13,13 @@ client = Client()
 USERNAME = 'Instagram username'
 PASSWORD = 'Instagram password'
 
-cl.login(USERNAME, PASSWORD)
-cl.follow(SOMEONE)
-cl.unfollow(SOMEONE)
-cl.like_post(POST_URL)
-cl.unlike_post(POST_URL)
+client.login(USERNAME, PASSWORD)
+client.follow(SOMEONE)
+client.unfollow(SOMEONE)
+client.like_post(POST_URL)
+client.unlike_post(POST_URL)
 
-results = cl.search(search_for='Quran')
+results = client.search(search_for='Quran')
 print(results['users'])
 print(results['places'])
 print(results['hashtags'])
